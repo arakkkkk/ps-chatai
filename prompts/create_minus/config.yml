@@ -1,0 +1,6 @@
+title: Connectシート作成プロンプト # プロンプトの表示名
+message: 今期の成果を入力してください # 入力フォームの説明
+prompt: prompt.txt # 自動入力されるプロンプト
+meta-prompts: # メタプロンプト。入力に対し、メタプロンプトの内容で順にAI解析が行われる
+  - _corrector.txt
+  - _create_minus.txt
